@@ -18,17 +18,29 @@
           <img src="img/DeWatermark.ai_1737149159105-Photoroom.png"
         /></a>
       </div>
-      <nav>
+      <!-- Botão de menu hamburguer deve ficar aqui dentro do header -->
+      <button class="menu-toggle" aria-label="Abrir menu">
+        <span></span>
+      </button>
+      <nav class="desktop-menu">
         <ul>
           <li><a href="#">Localização</a></li>
           <li><a href="#">Resultados</a></li>
           <li><a href="#">Nossos serviços</a></li>
-          <button class="contato">
-            <a href=""></a> <strong>Contato</strong>
-          </button>
+          <li>
+            <a class="contato" href="#"><strong>Contato</strong></a>
+          </li>
         </ul>
       </nav>
     </header>
+    <!-- Menu lateral mobile -->
+    <nav class="mobile-menu">
+      <ul>
+        <li><a href="#">Localização</a></li>
+        <li><a href="#">Resultados</a></li>
+        <li><a href="#">Nossos serviços</a></li>
+      </ul>
+    </nav>
     <img
       class="banner"
       src="img/ChatGPT Image 15 de abr. de 2025, 16_03_27.png"
@@ -130,12 +142,11 @@
 
     <section class="container1">
       <div class="clip">
-        <video controls>
-          <source
-            src="img/Cleaning The DIRTIEST Audi SQ8 - First Winter Wash.mp4"
-            type="video/mp4"
-          />
-        </video>
+        <video
+          src="img/Cleaning The DIRTIEST Audi SQ8 - First Winter Wash.mp4"
+          autoplay
+          loop
+        ></video>
       </div>
 
       <div class="cliente">
@@ -217,5 +228,7 @@
         <h4>Francisco Marques <strong>|Dev </strong></h4>
       </div>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

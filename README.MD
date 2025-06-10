@@ -87,3 +87,26 @@ Eu sou **Francisco Marques**, estudante de Análise e Desenvolvimento de Sistema
 ## 🎁 Como Contribuir
 
 Se você tem sugestões de melhorias ou encontrou algum bug, fique à vontade para contribuir com o projeto. Basta abrir uma issue ou fazer um pull request.
+
+# Como subir as alterações com Git
+
+1. Abra o terminal na pasta do seu projeto.
+2. Execute os comandos abaixo:
+
+```sh
+git add .
+git commit -m "Ajustes no menu mobile e responsividade"
+git push
+```
+
+- `git add .` adiciona todas as alterações.
+- `git commit -m "mensagem"` cria um commit com uma mensagem.
+- `git push` envia para o repositório remoto.
+
+Se for o primeiro push, pode ser necessário configurar o repositório remoto com:
+
+```sh
+git remote add origin https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+git push -u origin main
+```
+Troque `SEU_USUARIO` e `SEU_REPOSITORIO` pelo seu usuário e nome do repositório no GitHub.
