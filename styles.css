@@ -499,11 +499,25 @@ nav.mobile-menu ul li a:hover {
 
 /* Responsivo para vídeo */
 @media (max-width: 900px) {
+  .container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+  .clip {
+    width: 100%;
+    display: block;
+  }
   .clip video {
     width: 90% !important;
-    height: 220px !important;
-    margin: 10% auto 0 auto;
+    height: auto !important;
+    max-width: 350px;
+    margin: 10px auto 0 auto !important;
     border-radius: 10px;
+    display: block;
+  }
+  .cliente {
+    width: 100%;
   }
 }
 
