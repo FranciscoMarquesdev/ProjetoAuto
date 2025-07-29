@@ -111,10 +111,3 @@ git push -u origin main
 ```
 
 Troque `SEU_USUARIO` e `SEU_REPOSITORIO` pelo seu usuário e nome do repositório no GitHub.
-
-## ✅ Últimas Atualizações
-
-- Menu hambúrguer mobile funcional
-- Vídeo responsivo com autoplay em loop
-- Melhorias na responsividade geral
-- Ajustes de layout para dispositivos móveis
