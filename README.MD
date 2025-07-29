@@ -95,7 +95,7 @@ Se você tem sugestões de melhorias ou encontrou algum bug, fique à vontade pa
 
 ```sh
 git add .
-git commit -m "Ajustes no menu mobile e responsividade"
+git commit -m "Melhorias no menu mobile e vídeo responsivo com autoplay"
 git push
 ```
 
@@ -109,4 +109,12 @@ Se for o primeiro push, pode ser necessário configurar o repositório remoto co
 git remote add origin https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
 git push -u origin main
 ```
+
 Troque `SEU_USUARIO` e `SEU_REPOSITORIO` pelo seu usuário e nome do repositório no GitHub.
+
+## ✅ Últimas Atualizações
+
+- Menu hambúrguer mobile funcional
+- Vídeo responsivo com autoplay em loop
+- Melhorias na responsividade geral
+- Ajustes de layout para dispositivos móveis
